@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "React Hotel Booking Application",
-  "main": "./src/index.ts",
+  "type": "module",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon"
   },
   "keywords": [
     "TypeScript"
@@ -17,5 +18,10 @@
     "express": "^4.21.1",
     "mongodb": "^6.9.0",
     "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7"
   }
 }
