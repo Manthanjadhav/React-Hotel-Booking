@@ -5,6 +5,10 @@ const appRouter = createBrowserRouter([
     path: "/",
     element: <Layout />,
   },
+  {
+    path: "/search",
+    element: <Layout><p>Search Page</p></Layout>,
+  },
 ]);
 function App() {
   return (
